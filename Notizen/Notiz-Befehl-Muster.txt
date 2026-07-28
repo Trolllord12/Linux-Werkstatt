@@ -1,0 +1,7 @@
+Muster vieler Befehele 
+
+Programm Quelle Ziel
+
+Beispiel: 
+
+cp Notiz.txt Notiz-backup.txt (erstellt eine Kopie der datei Notiz.txt und nennt diese Notize-backup.txt)
