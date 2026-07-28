@@ -1,0 +1,4 @@
+Linux ist spannend.
+Ich lerne jeden Tag etwas Neues.
+Das Terminal macht immer mehr Spaß.
+Heute arbeite ich mit cat und less.
