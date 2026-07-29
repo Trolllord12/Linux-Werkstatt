@@ -14,6 +14,3 @@ Dieses Repository dient dazu, Linux von Grund auf zu lernen – mit praktischen 
 - Skripte/       → Eigene Bash-Skripte
 - Cheatsheets/   → Kurzübersichten wichtiger Befehle
 
-## Fortschritt
-
-- [ ] Lektion 1 – Terminal-Grundlagen
