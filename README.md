@@ -8,9 +8,16 @@ Dieses Repository dient dazu, Linux von Grund auf zu lernen – mit praktischen 
 
 ## Ordner
 
-- Lektionen/     → Alle Kurse
-- Übungen/       → Eigene Aufgaben
-- Notizen/       → Persönliche Notizen
-- Skripte/       → Eigene Bash-Skripte
-- Cheatsheets/   → Kurzübersichten wichtiger Befehle
-
+Linux-Werkstatt
+│
+├── Lektionen
+│   → Zum Lernen
+│
+├── Übungen
+│   → Zum Üben
+│
+├── Cheatsheets
+│   → Zum Nachschlagen
+│
+├── Skripte
+│   → Eigene Projekte
