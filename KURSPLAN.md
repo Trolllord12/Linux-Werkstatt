@@ -11,7 +11,7 @@
   1. Theorie
   2. Praxis
   3. Prüfung
-  4. `README.md` aktualisieren
+  4. Cheatsheet.md Notizen.md README.md Übungen.md im entsprechenden Verzeichnis unter Linuxwerksatt/Lektionen ergänzen aktualisieren
   5. Git (`git add` → `git commit` → `git push`)
   6. Teil B (Handy / Termux)
 
