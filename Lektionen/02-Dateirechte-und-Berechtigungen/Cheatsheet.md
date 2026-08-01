@@ -1,6 +1,6 @@
 # Lektion 02 – Cheatsheet
 
-## Rechte
+## Dateirechte
 
 | Zeichen | Bedeutung |
 |----------|-----------|
@@ -70,6 +70,34 @@ chmod 750 script.sh
 
 ---
 
+## Dateitypen bestimmen
+
+```bash
+file dateiname
+```
+
+---
+
+## Häufige Dateiendungen
+
+| Endung | Verwendung |
+|---------|------------|
+| .txt | Textdatei |
+| .md | Markdown |
+| .log | Logdatei |
+| .conf | Konfigurationsdatei |
+| .sh | Shell-Skript |
+| .json | Strukturierte Daten |
+| .yaml / .yml | Konfigurationsdatei |
+| .xml | Strukturierte Daten |
+| .csv | Tabellen / Datenaustausch |
+| .db | Datenbank |
+| .m3u | Playlist |
+| .zip | ZIP-Archiv |
+| .tar.gz | Komprimiertes Linux-Archiv |
+
+---
+
 ## Wichtige Befehle
 
 ```bash
@@ -79,4 +107,5 @@ groups
 id
 chown
 chgrp
+file
 ```

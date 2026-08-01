@@ -40,7 +40,20 @@ Verwendete Befehle:
 - `groups`
 - `id`
 
+### Übung 6
+
+Dateitypen untersucht.
+
+Geübt:
+
+- `file`
+- Dateien ohne Endung
+- Leere Dateien
+- Shell-Skript erkennen
+- Unterschied zwischen Dateiendung und Dateiinhalt
+
 ### Prüfungen
 
-- Prüfung 1 bestanden
-- Prüfung 2 bestanden
+- Prüfung 1: Dateirechte
+- Prüfung 2: Berechtigungen
+- Prüfung 3: Dateitypen

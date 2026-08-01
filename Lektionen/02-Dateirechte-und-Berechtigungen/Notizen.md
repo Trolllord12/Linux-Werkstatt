@@ -139,3 +139,50 @@ chgrp
 groups
 id
 ```
+---
+
+## Dateitypen
+
+Linux erkennt Dateien nicht anhand ihrer Dateiendung, sondern anhand ihres Inhalts.
+
+Der Dateiname dient hauptsächlich der Übersicht und Kompatibilität mit anderen Betriebssystemen.
+
+Den tatsächlichen Dateityp zeigt der Befehl:
+
+```bash
+file dateiname
+```
+
+Beispiele:
+
+```bash
+file text.txt
+file ohne_endung
+```
+
+Beide können als `ASCII text` erkannt werden, obwohl eine Datei keine Endung besitzt.
+
+### Häufige Dateiendungen
+
+| Endung | Verwendung |
+|---------|------------|
+| `.txt` | Einfache Textdatei |
+| `.md` | Markdown |
+| `.log` | Logdatei |
+| `.conf` | Konfigurationsdatei |
+| `.sh` | Shell-Skript |
+| `.json` | Strukturierte Daten |
+| `.yaml` / `.yml` | Konfigurationsdatei |
+| `.xml` | Strukturierte Daten |
+| `.csv` | Tabellen und Datenaustausch |
+| `.db` | Datenbank |
+| `.m3u` | Playlist |
+| `.zip` | ZIP-Archiv |
+| `.tar.gz` | Komprimiertes Linux-Archiv |
+
+### Merksätze
+
+- Linux benötigt keine Dateiendungen.
+- Der Befehl `file` erkennt den Dateityp anhand des Inhalts.
+- Eine Datei mit der Endung `.sh` ist nicht automatisch ein Shell-Skript.
+- Erst der Inhalt (z. B. ein Shebang) und gegebenenfalls das Ausführungsrecht machen sie zu einem ausführbaren Skript.
