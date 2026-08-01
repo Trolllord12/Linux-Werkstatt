@@ -149,6 +149,7 @@ Themen, bei denen noch nicht feststeht, ob sie später als Lektion, Praxisprojek
 - 🟡 Matrix-Server
 - 🟡 Eigener DNS-Server
 - 🟡 Eigene Linux-ISO erstellen
+- 🟡 Unterstützung für die Logitech G PRO 2 LIGHTSPEED in libratbag ergänzen
 
 ---
 
