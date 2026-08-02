@@ -106,7 +106,7 @@ Größere Projekte, die mehrere Lektionen miteinander verbinden und mehrere Stun
 - 🟡 🚀 Linux-Dateiserver (Samba)
 - 🟡 🚀 Reverse Proxy (Nginx Proxy Manager)
 - 🟡 🚀 Automatisierte Docker-Umgebung
-
+- 🟡 🚀 Eigene Linux-Entwicklungsumgebung
 ---
 
 # Ideen
