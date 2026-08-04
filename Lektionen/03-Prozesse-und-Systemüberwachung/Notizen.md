@@ -134,3 +134,17 @@ Dienste werden häufig mit `systemctl` verwaltet.
 - `kill` beendet einen bestimmten Prozess.
 - `killall` beendet alle Prozesse mit demselben Namen.
 - `kill -9` sollte nur verwendet werden, wenn `kill` nicht funktioniert.
+
+---
+
+## Termux
+
+Die Befehle `ps`, `top`, `kill` und `htop` funktionieren in Termux nahezu identisch wie unter Linux Mint.
+
+Unterschiede:
+
+- Kein `systemd`
+- Android verwaltet viele Hintergrunddienste selbst
+- Einige Programme müssen nachinstalliert werden (z. B. `htop`)
+
+Termux eignet sich sehr gut, um Linux-Befehle unterwegs zu üben.

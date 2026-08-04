@@ -79,6 +79,7 @@ Kleinere Projekte (ca. 30–90 Minuten), die bereits gelernte Inhalte praktisch 
 - 🟡 🛠 Automatische Projektordner erstellen
 - 🟡 🛠 Einfache To-do-Liste im Terminal
 - 🟡 🛠 Shell-Skript mit Benutzerabfragen
+- 🟡 🛠 Termux einrichten
 
 ---
 

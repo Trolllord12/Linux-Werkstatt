@@ -69,3 +69,19 @@ Verglichen:
 
 - Prüfung 1 bestanden
 - Prüfung 2 bestanden
+
+
+## Lektion 03B – Termux
+
+### Praxis
+
+- `ps`
+- `top`
+- `htop` installiert
+- Prozesse gesucht
+- Prozesse beendet
+- Unterschiede zwischen Linux Mint und Termux betrachtet
+
+### Mini-Prüfung
+
+Bestanden
