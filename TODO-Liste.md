@@ -82,6 +82,7 @@ Kleinere Projekte (ca. 30–90 Minuten), die bereits gelernte Inhalte praktisch 
 - 🟡 🛠 Termux einrichten
 - 🟡 🛠 Linux-System dokumentieren
 - 🟢 🛠 Prozessmanager im Terminal
+- 🟡 🛠 Linux-Fehlerdiagnose
 
 ---
 
@@ -89,10 +90,10 @@ Kleinere Projekte (ca. 30–90 Minuten), die bereits gelernte Inhalte praktisch 
 
 Größere Projekte, die mehrere Lektionen miteinander verbinden und mehrere Stunden oder Tage dauern können.
 
-- 🟡 🚀 Eigener Medienserver (Jellyfin oder Navidrome)
+- 🟢 🚀 Eigener Medienserver (Jellyfin oder Navidrome)
 - 🟡 🚀 Heimserver aufsetzen
 - 🟡 🚀 Backup-Server
-- 🟡 🚀 Docker-Server
+- 🟡 🚀 Docker-Server mit automatisierter Umgebung
 - 🟡 🚀 Raspberry Pi als Linux-Server
 - 🟡 🚀 Eigene Cloud (Nextcloud)
 - 🟡 🚀 NAS auf Linux-Basis
@@ -108,7 +109,6 @@ Größere Projekte, die mehrere Lektionen miteinander verbinden und mehrere Stun
 - 🟡 🚀 Smart-Home-Server (Home Assistant)
 - 🟡 🚀 Linux-Dateiserver (Samba)
 - 🟡 🚀 Reverse Proxy (Nginx Proxy Manager)
-- 🟡 🚀 Automatisierte Docker-Umgebung
 - 🟡 🚀 Eigene Linux-Entwicklungsumgebung
 ---
 
@@ -174,6 +174,29 @@ Langfristige Projekte, die einen Großteil der Linux-Werkstatt voraussetzen und 
 - 🟡 🏆 Eigene Linux-Serverlandschaft
 - 🟡 🏆 Vollautomatisiertes Backup- und Wiederherstellungssystem
 - 🟡 🏆 Selbst gehostete Produktivumgebung
+- 🟢 🏆 Linux Escape Room
+
+  Abschlussprojekt der Linux-Werkstatt.
+
+  Ziel:
+  - Eine vorbereitete Linux-Umgebung analysieren.
+  - Fehler selbstständig finden und beheben.
+  - Gelernte Inhalte aus allen Lektionen miteinander kombinieren.
+
+  Mögliche Aufgaben:
+  - Dateien finden
+  - Dateirechte korrigieren
+  - Prozesse analysieren und beenden
+  - Pakete installieren
+  - Git verwenden
+  - SSH einrichten
+  - Bash-Skript schreiben
+  - Backup erstellen
+  - Dienste prüfen
+  - Dokumentation ergänzen
+
+  Es gibt keine Schritt-für-Schritt-Anleitung.
+  Ziel ist es, die Linux-Werkstatt möglichst selbstständig anzuwenden.
 
 ---
 
