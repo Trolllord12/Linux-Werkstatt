@@ -22,8 +22,8 @@
 | Lektion | Thema                                    |     Status    |
 | ------: | ---------------------------------------- | :-----------: |
 |       1 | Grundlagen                               | Abgeschlossen |
-|       2 | Dateirechte, Berechtigungen & Dateitypen |     Offen     |
-|       3 | Prozesse                                 |     Offen     |
+|       2 | Dateirechte, Berechtigungen & Dateitypen | Abgeschlossen |
+|       3 | Prozesse                                 | Abgeschlossen |
 |       4 | Paketverwaltung                          |     Offen     |
 |       5 | Hardware & Systeminformationen           |     Offen     |
 |       6 | Bash-Skripte                             |     Offen     |
@@ -62,7 +62,7 @@
 
 # Lektion 2 – Dateirechte, Berechtigungen & Dateitypen
 
-**Status:** Offen
+**Status:** Abgeschlossen
 
 ## Themen
 
@@ -99,7 +99,7 @@
 
 # Lektion 3 – Prozesse
 
-**Status:** Offen
+**Status:** Abgeschlossen
 
 ## Themen
 

@@ -80,6 +80,8 @@ Kleinere Projekte (ca. 30–90 Minuten), die bereits gelernte Inhalte praktisch 
 - 🟡 🛠 Einfache To-do-Liste im Terminal
 - 🟡 🛠 Shell-Skript mit Benutzerabfragen
 - 🟡 🛠 Termux einrichten
+- 🟡 🛠 Linux-System dokumentieren
+- 🟢 🛠 Prozessmanager im Terminal
 
 ---
 
@@ -87,7 +89,7 @@ Kleinere Projekte (ca. 30–90 Minuten), die bereits gelernte Inhalte praktisch 
 
 Größere Projekte, die mehrere Lektionen miteinander verbinden und mehrere Stunden oder Tage dauern können.
 
-- 🟢 🚀 Eigener Medienserver (Jellyfin oder Navidrome)
+- 🟡 🚀 Eigener Medienserver (Jellyfin oder Navidrome)
 - 🟡 🚀 Heimserver aufsetzen
 - 🟡 🚀 Backup-Server
 - 🟡 🚀 Docker-Server

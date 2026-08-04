@@ -75,6 +75,33 @@ oder
 ```text
 q
 ```
+---
+
+## Hintergrundprozesse
+
+Prozess im Hintergrund starten
+
+```bash
+sleep 300 &
+```
+
+Hintergrundjobs anzeigen
+
+```bash
+jobs
+```
+
+Job in den Vordergrund holen
+
+```bash
+fg
+```
+
+Bestimmten Job in den Vordergrund holen
+
+```bash
+fg %1
+```
 
 ---
 

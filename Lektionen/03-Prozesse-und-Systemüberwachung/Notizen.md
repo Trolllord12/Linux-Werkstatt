@@ -137,6 +137,59 @@ Dienste werden häufig mit `systemctl` verwaltet.
 
 ---
 
+## Hintergrundprozesse
+
+Mit `&` wird ein Prozess direkt im Hintergrund gestartet.
+
+Beispiel:
+
+```bash
+sleep 300 &
+```
+
+Der Prozess läuft weiter, während das Terminal sofort wieder für neue Befehle verfügbar ist.
+
+Die aktuellen Hintergrundjobs der Shell zeigt:
+
+```bash
+jobs
+```
+
+Mit
+
+```bash
+fg
+```
+
+wird der aktuelle Hintergrundjob wieder in den Vordergrund geholt.
+
+Bei mehreren Jobs kann ein bestimmter Job gewählt werden:
+
+```bash
+fg %1
+```
+
+### Unterschied zwischen `jobs` und `ps`
+
+`jobs`
+
+- Zeigt nur die Hintergrundjobs der aktuellen Shell.
+- Arbeitet mit Jobnummern (`[1]`, `[2]` …).
+
+`ps`
+
+- Zeigt Prozesse des Systems.
+- Arbeitet mit Prozess-IDs (PID).
+
+### Merksätze
+
+- `&` startet einen Prozess im Hintergrund.
+- Hintergrundprozesse laufen parallel und nicht nacheinander.
+- `jobs` arbeitet mit Jobnummern.
+- `kill` arbeitet mit Prozess-IDs (PID).
+
+---
+
 ## Termux
 
 Die Befehle `ps`, `top`, `kill` und `htop` funktionieren in Termux nahezu identisch wie unter Linux Mint.
