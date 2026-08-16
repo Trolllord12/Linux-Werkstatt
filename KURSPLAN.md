@@ -24,7 +24,7 @@
 |       1 | Grundlagen                               | Abgeschlossen |
 |       2 | Dateirechte, Berechtigungen & Dateitypen | Abgeschlossen |
 |       3 | Prozesse                                 | Abgeschlossen |
-|       4 | Paketverwaltung                          |     Offen     |
+|       4 | Paketverwaltung                          | Abgeschlossen |
 |       5 | Hardware & Systeminformationen           |     Offen     |
 |       6 | Bash-Skripte                             |     Offen     |
 |       7 | Git                                      |     Offen     |
@@ -116,7 +116,7 @@
 
 # Lektion 4 – Paketverwaltung
 
-**Status:** Offen
+**Status:** Abgeschlossen
 
 ## Themen
 
