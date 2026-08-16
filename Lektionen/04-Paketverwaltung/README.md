@@ -28,3 +28,34 @@ Nach dieser Lektion kann ich:
 - Pakete installieren und entfernen
 - nicht mehr benötigte Abhängigkeiten entfernen
 - nach Paketen suchen
+
+
+# Lektion 04B – Paketverwaltung unter Termux
+
+## Inhalte
+
+- `pkg`
+- `apt` unter Termux
+- Paketlisten aktualisieren
+- Pakete aktualisieren
+- Pakete suchen
+- Pakete installieren
+- Pakete entfernen
+- Unterschiede zwischen `pkg` und `apt`
+- `apt autoremove`
+
+## Status
+
+🟢 Teil B abgeschlossen
+
+## Lernziele
+
+Nach dieser Lektion kann ich:
+
+- Pakete unter Termux verwalten
+- `pkg` verwenden
+- den Unterschied zwischen `pkg` und `apt` erklären
+- Pakete suchen, installieren und entfernen
+- Paketlisten aktualisieren
+- installierte Pakete aktualisieren
+- `apt autoremove` unter Termux verwenden

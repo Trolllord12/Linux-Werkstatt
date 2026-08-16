@@ -139,3 +139,197 @@ apt search ssh
 sudo apt update
 sudo apt upgrade
 ```
+
+
+
+# Lektion 04B – Paketverwaltung unter Termux
+
+## `pkg`
+
+Termux stellt mit `pkg` eine vereinfachte Schnittstelle für die Paketverwaltung bereit.
+
+Unter Termux ist `pkg` für die normale Paketverwaltung meist die unkompliziertere Variante.
+
+---
+
+## `apt` unter Termux
+
+Auch `apt` ist in Termux vorhanden.
+
+Beide Programme befinden sich in der Termux-Umgebung:
+
+```text
+/data/data/com.termux/files/usr/bin/pkg
+/data/data/com.termux/files/usr/bin/apt
+```
+
+`pkg` verwendet im Hintergrund die APT-Paketverwaltung.
+
+---
+
+## Paketlisten aktualisieren
+
+```bash
+pkg update
+```
+
+Aktualisiert die Paketlisten.
+
+---
+
+## Pakete aktualisieren
+
+```bash
+pkg upgrade
+```
+
+Installiert verfügbare Aktualisierungen für installierte Pakete.
+
+---
+
+## Pakete suchen
+
+```bash
+pkg search paketname
+```
+
+Sucht nach verfügbaren Paketen.
+
+---
+
+## Pakete installieren
+
+```bash
+pkg install paketname
+```
+
+Installiert ein Paket innerhalb der Termux-Umgebung.
+
+---
+
+## Pakete entfernen
+
+```bash
+pkg remove paketname
+```
+
+Entfernt ein installiertes Paket.
+
+---
+
+## Installierte Pakete anzeigen
+
+```bash
+pkg list-installed
+```
+
+Zeigt die installierten Pakete an.
+
+---
+
+## Paketinformationen anzeigen
+
+```bash
+pkg show paketname
+```
+
+Zeigt Informationen zu einem Paket an.
+
+Beispiel:
+
+```bash
+pkg show tree
+```
+
+Dabei können unter anderem folgende Informationen angezeigt werden:
+
+- Paketname
+- Version
+- Maintainer
+- Installationsgröße
+- Downloadgröße
+- Paketquelle
+- Beschreibung
+
+---
+
+## `pkg autoremove` und `apt autoremove`
+
+In der verwendeten Termux-Version ist:
+
+```bash
+pkg autoremove
+```
+
+nicht verfügbar.
+
+`pkg` meldet:
+
+```text
+Unknown command: 'autoremove'
+```
+
+Der entsprechende APT-Befehl ist jedoch vorhanden:
+
+```bash
+apt autoremove
+```
+
+Damit kann die Funktion direkt über APT verwendet werden.
+
+---
+
+## Unterschied zwischen Linux Mint und Termux
+
+### Linux Mint
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install paketname
+sudo apt remove paketname
+sudo apt autoremove
+apt search paketname
+```
+
+### Termux
+
+```bash
+pkg update
+pkg upgrade
+pkg install paketname
+pkg remove paketname
+apt autoremove
+pkg search paketname
+```
+
+---
+
+## Warum kein `sudo`?
+
+Termux arbeitet innerhalb einer eigenen Umgebung auf Android.
+
+Die normalen Termux-Pakete werden innerhalb dieser Umgebung installiert. Dafür wird normalerweise kein Root-Zugriff auf das Android-Gerät benötigt.
+
+Deshalb wird beispielsweise verwendet:
+
+```bash
+pkg install htop
+```
+
+und nicht:
+
+```bash
+sudo pkg install htop
+```
+
+---
+
+## Wichtige Merksätze
+
+- `pkg` ist die vereinfachte Termux-Schnittstelle für APT.
+- `apt` ist trotzdem direkt in Termux verfügbar.
+- Nicht jeder APT-Befehl ist über `pkg` verfügbar.
+- `pkg autoremove` ist in der verwendeten Version nicht verfügbar.
+- `apt autoremove` ist verfügbar.
+- Für die normale Paketverwaltung unter Termux wird kein `sudo` benötigt.
